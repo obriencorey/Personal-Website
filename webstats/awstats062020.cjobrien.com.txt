@@ -1,0 +1,849 @@
+AWSTATS DATA FILE 7.7 (build 20161204)
+# If you remove this file, all statistics for date 202006 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.cjobrien.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 1995                
+POS_TIME 2682                
+POS_VISITOR 15358               
+POS_DAY 21186               
+POS_DOMAIN 3525                
+POS_LOGIN 3995                
+POS_ROBOT 4150                
+POS_WORMS 5377                
+POS_EMAILSENDER 5508                
+POS_EMAILRECEIVER 5651                
+POS_SESSION 21961               
+POS_SIDER 22158               
+POS_FILETYPES 5786                
+POS_DOWNLOADS 6103                
+POS_OS 6196                
+POS_BROWSER 6523                
+POS_SCREENSIZE 8118                
+POS_UNKNOWNREFERER 8192                
+POS_UNKNOWNREFERERBROWSER 8430                
+POS_ORIGIN 8546                
+POS_SEREFERRALS 8685                
+POS_PAGEREFS 8869                
+POS_SEARCHWORDS 9246                
+POS_KEYWORDS 9443                
+POS_MISC 2346                
+POS_ERRORS 9545                
+POS_CLUSTER 3851                
+POS_SIDER_404 9687                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200701025144 3382 848598 7076703043238
+FirstTime 20200601024618
+LastTime 20200630214558
+LastUpdate 20200701043840 3382 3202 178 1 0
+TotalVisits 135                 
+TotalUnique 99                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 171                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 14 79 30914318 39 64 493389
+1 7 16 139948 41 62 3227098
+2 8 8 25929 48 80 264979
+3 11 59 45055851 53 83 1449254
+4 3 16 3817402 34 48 339394
+5 4 50 4151804 81 119 1811790
+6 2 15 157401 153 182 2834449
+7 8 30 2010353 83 131 1823005
+8 2 2 3575 42 66 235579
+9 6 40 7687890 32 44 865851
+10 14 20 3251945 33 38 2742065
+11 5 5 12322 37 59 181320
+12 15 38 21889395 46 55 588703
+13 16 22 18515 48 77 413774
+14 4 17 183173 32 58 1401660
+15 25 42 15421710 77 83 1089404
+16 7 64 26958557 73 93 583636
+17 6 34 18680141 32 47 170324
+18 14 70 48033200 102 151 844079
+19 24 54 15967374 62 82 544315
+20 6 20 12182763 79 119 2213016
+21 21 122 92806042 100 141 3959722
+22 41 125 93834126 51 102 4818253
+23 7 29 20518885 21 36 321947
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 18
+us 138 519 322239626
+cn 53 311 125936757
+ca 17 31 3849096
+de 13 48 7762182
+lt 10 16 1712
+ru 8 8 37762
+fr 6 6 9028
+gb 6 6 16770
+unknown 5 5 8963
+se 4 4 7156
+it 1 1 5172
+no 1 1 1789
+al 1 1 5139
+nl 1 1 5172
+ro 1 1 5139
+dk 1 14 3810600
+eu 2 2 10278
+bg 2 2 10278
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 28
+java 132 5206317 20200630055157 0
+Googlebot/ 104 474635 20200628231453 35
+DotBot/ 102 3071045 20200609152443 5
+Sogou[\x20]web[\x20]spider/ 99 163128 20200630092843 2
+AhrefsBot/ 96 128690 20200630205006 29
+YandexBot/ 85 126060 20200627191335 42
+bingbot/ 66 3325644 20200629182641 38
+MJ12bot/ 30 458155 20200628074042 15
+bingpreview 23 4013247 20200614113841 0
+bot[\s_+:,\.\;\/\\-] 23 104982 20200630154542 1
+Googlebot\-Image/ 1 943958 20200607211638 0
+(firefox/)([0-9]\.|[0-1][0]\.) 1 5139 20200621192239 0
+Python\-urllib/ 2 5139 20200611145945 0
+BLEXBot/ 12 21656 20200623104453 3
+no_user_agent 5 15417 20200614044525 0
+[\s_+:,\.\;\/\\-]bot 3 5376 20200629151641 0
+panscient 16 37732 20200605201526 1
+MSIE[\x20]6 4 20589 20200624193653 0
+MojeekBot/ 3 1911 20200623073648 2
+ips\-agent 4 8462 20200614221443 1
+unknown 12 863 20200630032831 12
+curl 1 5139 20200629164657 0
+Mail\.RU_Bot/ 6 180 20200627145310 6
+SemrushBot/ 15 24483 20200628120203 8
+python 1 1798 20200605202533 0
+^mozilla\/5\.0$ 4 12128 20200630030637 1
+DomainSONOCrawler/ 1 1789 20200610155310 0
+Applebot/ 8 7409 20200626040828 4
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 14
+css 264 2739361 0 0
+png 52 182776416 0 0
+pdf 4 81528 0 0
+env 2 214 0 0
+woff2 4 308640 0 0
+json 2 214 0 0
+php 9 830 0 0
+html 197 418882 0 0
+xml 20 1874 0 0
+js 152 2462484 0 0
+jpg 37 19099770 0 0
+jpeg 196 255753164 0 0
+Unknown 36 79028 0 0
+gif 2 214 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/files/Me%20Like%20Airplanes.pdf 14 0 285348
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 20
+linuxandroid 2 2
+macosx11 2 2
+winxp 10 9
+macosx6 2 2
+winlong 123 5
+ios_iphone 74 11
+win2000 1 1
+winvista 3 3
+win8 5 4
+macosx9 4 4
+winnt 24 16
+macosx12 1 1
+linuxubuntu 10 1
+linux 123 37
+win7 126 34
+macosx 280 68
+Unknown 10 10
+win10 170 54
+win8.1 6 5
+macosx8 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 73
+firefox57.0 2 2
+firefox28.0 30 18
+chrome52.0.2743.116 1 1
+firefox74.0 1 1
+chrome76.0.1233.88 1 1
+chrome80.0.3987.122 15 2
+edge12 1 1
+chrome71.0.1254.88 1 1
+chrome70.0.1533.88 1 1
+chrome58.0.3029.110 2 2
+chrome23.0.1271.95 1 0
+chrome83.0.4103.97 53 7
+msie8.0 3 3
+firefox73.0 4 4
+msie7.0 118 0
+chrome75.0.2472.88 1 1
+safari13.1 74 11
+firefox50.0 1 0
+chrome41.0.2224.3 1 1
+firefox53.0 1 1
+opera12.16 1 0
+chrome79.0.2526.88 7 3
+chrome81.0.4044.92 14 1
+chrome34.0.1847.131 2 2
+chrome76.0.3809.132 6 6
+chrome80.0.3987.116 28 2
+chrome74.0.2883.88 1 1
+chrome76.0.1595.88 1 1
+chrome51.0.2704.103 7 7
+chrome46.0.2490.80 8 8
+firefox68.0 1 1
+firefox33.0 2 2
+mozilla 6 6
+netscape5.0 5 5
+chrome35.0.1916.47 3 3
+chrome74.0.3422.88 1 1
+chrome41.0.2228.0 2 1
+chrome77.0.2898.88 7 3
+firefox36.0 1 0
+chrome73.0.3683.90 2 2
+firefox35.0 1 1
+chrome67.0.3396.79 1 1
+chrome71.0.3191.88 1 1
+chrome73.0.1809.88 1 1
+chrome80.0.3987.106 1 1
+chrome26.0.1410.65 1 1
+chrome73.0.3407.88 1 1
+chrome47.0.2526.111 1 1
+chrome34.0.1847.116 4 4
+chrome83.0.4103.61 308 67
+chrome40.0.2214.85 5 5
+chrome74.0.3729.169 115 25
+chrome75.0.3770.142 13 3
+Unknown 6 6
+opera62.0.3331.99 1 1
+chrome77.0.3865.90 1 1
+chrome70.0.3538.77 1 1
+chrome73.0.2980.88 7 3
+opera54.0.2952.71 1 1
+chrome73.0.2905.88 1 1
+chrome73.0.3683.86 38 0
+opera53.0.2907.68 1 1
+chrome76.0.3809.100 2 2
+chrome79.0.1820.88 1 1
+chrome72.0.1719.88 1 1
+chrome72.0.2357.88 1 1
+chrome79.0.3945.88 1 1
+chrome70.0.1361.88 1 1
+chrome73.0.3594.88 1 1
+safari5.1 2 2
+chrome83.0.4103.106 23 3
+chrome79.0 16 16
+chrome65.0.3325.146 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Mozilla/5.0_Firefox/33.0 20200622001404
+Mozilla/5.0_zgrab/0.x 20200619101055
+Go-http-client/1.1 20200630032834
+Mozilla/5.0_Firefox/35.0 20200605134233
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Go-http-client/1.1 20200630032834
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 180 336
+From1 0 0
+From2 21 21
+From3 5 5
+From4 64 615
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+bing 1 1
+sogou 19 19
+www_google_com 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 5
+http://message.cjobrien.com 1 1
+http://com.all-url.info/com/cjobrien.com/ 1 1
+http://www.andrewancheta.com/blog/91392098/profile/ 1 1
+http://message.cjobrien.com/inputToFrances.html 1 1
+http://message.cjobrien.com/input.html 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 2
+site+www.cjobrien.com 14
+site+cjobrien.com 5
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 3
+site 19
+www.cjobrien.com 14
+cjobrien.com 5
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+401 18 1351800
+302 1 138
+444 54 0
+404 317 13550067
+301 770 123930
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 215
+/scripts/.env 1 -
+/wordpress/ 2 -
+/api/.env 1 -
+/engine/.env 1 -
+/tagged/cracked.com 1 -
+/.git/HEAD 1 -
+/contact 2 -
+/cp/.env 1 -
+/headshots 1 -
+/en/wp-includes/wlwmanifest.xml 1 -
+/master/.env 1 -
+/site/wp-includes/wlwmanifest.xml 1 -
+/contact/ 2 -
+/iowa 14 -
+/post/81210292016 1 -
+/post/98986123075/paulasoapbox-this-thursday-night-october-2nd 3 -
+/bak/ 2 -
+/laravel/.env 1 -
+/web/ 2 -
+/journal 6 -
+/post/94560985925/the-next-episode-is-out-and-im-in-it-a-bit 1 -
+/js/cms/panel/panel.js 2 -
+/experienceCachedIMDB 8 -
+/rest/.env 1 -
+/deployment/.env 1 -
+/server/.env 1 -
+/post/71807425718/happy-new-year-everyone-have-fun-and-stay-safe 1 -
+/tagged/christmas-movies 1 -
+/wwwroot2018.zip 1 http://cjobrien.com/wwwroot2018.zip
+/travis/.env 1 -
+/tagged/tony-noto 1 -
+/1/wp-includes/wlwmanifest.xml 1 -
+/dependencies/.env 1 -
+/files/Me 1 -
+/yuanma.rar 1 http://cjobrien.com/yuanma.rar
+/sito/ 2 -
+/test/ 3 -
+/2019/ 2 -
+/tagged/cell-phone 1 -
+/tagged/cracked 1 -
+/laravel-artisan/.env 1 -
+/tagged/classic-alice 1 -
+/system/.env 1 -
+/wp-login.php 3 -
+/v1/wp-includes/wlwmanifest.xml 1 -
+/src/.env 1 -
+/tagged/amy-t.-falcone 1 -
+/tagged/coffee 1 -
+/tagged/Anime 1 -
+/tagged/the-asylum 1 -
+/michigan 1 -
+/post/45137273725/episode-2-of-pretty-shorts-coffee-break-is-now 1 -
+/tagged/animals 1 -
+/backend/.env 1 -
+/local/.env 1 -
+/permanentdatastorage.txt 8 https://cjobrien.com/data.html
+/development/.env 1 -
+/tagged/ff3d 1 -
+/post/61513148815 2 -
+/wwwroot%20%282%29.zip 1 http://cjobrien.com/wwwroot%20%282%29.zip
+/image/79177919677 1 -
+/wp-includes/wlwmanifest.xml 1 -
+/wp-admin 3 -
+/wp-content/plugins/wc-frontend-manager/readme.txt 1 -
+/app/.env 1 -
+/new-gallery 1 -
+/page/4 1 -
+/tmp/ 2 -
+/tech/ 1 -
+/rss 1 -
+/post/89218926685 1 -
+/ads.txt 6 -
+/tagged/film 1 -
+/v2/ 2 -
+/oldsite/wp-includes/wlwmanifest.xml 1 -
+/post/78094624660/ 1 -
+/tagged/austin-tx 1 -
+/post/97320196395/remember-the-other-lg-commercial-i-was-in-well 2 -
+/old-wp/ 2 -
+/tagged/LOL 1 -
+/tagged/ewan-mcbay 1 -
+/docker/.env 1 -
+/login/.env 1 -
+/temp/ 2 -
+/fedex/.env 1 -
+/tagged/Lbcc 1 -
+/+/ 2 -
+/tagged/actors+on+tumblr/page/2 1 -
+/staging/wp-includes/wlwmanifest.xml 1 -
+/v2/wp-includes/wlwmanifest.xml 1 -
+/dev/ 2 -
+/cli/.env 1 -
+/project 1 -
+/home/ 2 -
+/framework/.env 1 -
+/application/.env 1 -
+/post/73989274083/ 1 -
+/tagged/microbrien 1 -
+/sitemap.xml 5 -
+/post/72459780714/my-first-16-months-in-la 1 -
+/tagged/me 1 -
+/tagged/PBS 1 -
+/document/.env 1 -
+/manager/assets/modext/modx.jsgrps-min.js 2 -
+/new/ 2 -
+/cron/.env 1 -
+/media/system/js/core.js 2 -
+/wordpress/wp-login.php 3 -
+/tagged/my-face 1 -
+/www/wp-includes/wlwmanifest.xml 1 -
+/tagged/d.c.-douglas 1 -
+/tagged/Youtube 1 -
+/vue/.env 1 -
+/tagged/sharknado 1 -
+/wwwweb.rar 1 http://cjobrien.com/wwwweb.rar
+/back/.env 1 -
+/privacy_policy.php 2 -
+/old/ 3 -
+/sources/.env 1 -
+/post/77140023551/the-asylum-yes-the-sharknado-people-alpha-house 1 -
+/post/89218926685/classic-alice-its-the-main-cast-of-the-next 1 -
+/portal/wp-includes/wlwmanifest.xml 1 -
+/react/.env 1 -
+/mods/.env 1 -
+/web/wp-includes/wlwmanifest.xml 1 -
+/tagged/agricola 2 -
+/main/ 2 -
+/post/89218926685/ 1 -
+/reel 1 -
+/admin-app/.env 1 -
+/bk/ 2 -
+/.well-known/security.txt 1 -
+/post/88911653650/dary-thats-a-wrap-found-footage-3d-was-an 2 -
+/config/.env 1 -
+/search/.env 1 -
+/dev/.env 1 -
+/news/wp-includes/wlwmanifest.xml 1 -
+/wwww.tar.gz 1 http://cjobrien.com/wwww.tar.gz
+/project/.env 1 -
+/apps/.env 1 -
+/wp2/ 2 -
+/biography 1 -
+/post/88911653650 1 -
+/tagged/blip.tv 1 -
+/new/wp-includes/wlwmanifest.xml 1 -
+/post/73989274083/heres-a-higher-quality-image-of-me-on-set-of 1 -
+/vendor/phpunit/phpunit/build.xml 1 https://tools.siteground.com/resource-stats
+/post/74554120077 1 -
+/blog/wp-login.php 3 -
+/iowa/ 1 -
+/wwwroot%20%282%29.rar 1 http://cjobrien.com/wwwroot%20%282%29.rar
+/datastorage.txt 1 https://cjobrien.com/data.html
+/public/.env 1 -
+/core/.env 1 -
+/site/.env 1 -
+/post/101714443125/found-footage-3d-ama-on-reddit 2 -
+/private/.env 1 -
+/admin/ 1 -
+/misc/drupal.js 2 -
+/yuanma.tar.gz 1 http://cjobrien.com/yuanma.tar.gz
+/wp-content/plugins/custom-registration-form-builder-with-submission-manager/readme.txt 1 -
+/journal/ 1 -
+/inc/.env 1 -
+/image/82754755742 1 -
+/humans.txt 4 http://cjobrien.com/humans.txt
+/tagged/happy-new-year 1 -
+/2018/ 2 -
+/blogs/wp-includes/wlwmanifest.xml 1 -
+/new-york 1 -
+/post/73989274083 1 -
+/tagged/actors 1 -
+/frontend/.env 1 -
+/wp1/ 2 -
+/blog/ 3 -
+/site/ 2 -
+/admin/.env 1 -
+/tagged/actor 1 -
+/.env 4 -
+/post/72459780714 1 -
+/tagged/chris+o%27brien 1 -
+/~dev/.env 1 -
+/wp/ 2 -
+/cms/wp-includes/wlwmanifest.xml 1 -
+/2018/wp-includes/wlwmanifest.xml 1 -
+/v1/ 2 -
+/tagged/clique-refresh 1 -
+/welcome 1 -
+/post/94484606900/ 1 -
+/tagged/classic-literature 1 -
+/2020/ 2 -
+/ironment/.env 1 -
+/auth/.env 1 -
+/phpunit.xml 1 -
+/wp/wp-includes/wlwmanifest.xml 1 -
+/demo/ 2 -
+/web/.env 1 -
+/vod_installer/.env 1 -
+/dev/wp-includes/wlwmanifest.xml 1 -
+/routes/.env 1 -
+/shared/.env 1 -
+/tagged/arkham-horror 1 -
+/protected/.env 1 -
+/post/94674287905/this-commercial-was-so-fun-to-work-on-and-i-loved 1 -
+/backup/ 2 -
+/a/.env 1 -
+/personal/.env 1 -
+/m/.env 1 -
+/tagged/Found-Footage-3D 1 -
+/post/73886571709/suite-for-two-bands-geeks-got-accepted-to-the 1 -
+/cms/ 2 -
+/post/74995788837/i-am-really-honored-to-have-been-mentioned-in-this 1 -
+/tagged/netflix 1 -
+/backup/wp-includes/wlwmanifest.xml 2 -
+/tagged/Idea-Channel 1 -
+/old-site/ 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 171
+71.182.151.188 63 295 228305628 20200629165249
+119.3.24.235 25 37 8180739 20200619191720
+52.249.196.126 16 16 1408 20200606155909
+185.36.81.162 10 16 1712 20200604134953
+35.222.8.196 10 16 1712 20200603193225
+99.203.187.211 7 51 25831951 20200630005651
+188.143.169.29 6 6 30834 20200622022237
+158.69.241.227 5 5 11631 20200611133213
+138.246.253.15 5 5 0 20200617152336
+35.153.170.136 4 4 20556 20200630214558
+69.160.160.57 2 15 3812254 20200626094939
+123.126.113.124 0 4 15208 
+123.126.68.109 1 1 1777 20200623181741
+36.110.147.103 0 1 2493142 
+123.126.68.119 1 2 2494928 20200601183840
+51.15.124.33 1 1 1798 20200604025045
+220.249.46.89 0 1 535834 
+77.243.61.193 1 14 3810600 20200601092956
+123.126.68.122 0 1 2493142 
+36.110.147.93 0 4 7224 
+69.50.241.148 1 1 1789 20200616193327
+220.249.46.139 0 1 516210 
+36.110.147.89 0 5 2605234 
+123.126.113.175 0 1 7965 
+195.123.225.131 2 2 10278 20200618123529
+192.71.36.158 1 1 1789 20200623022858
+111.202.101.86 0 1 1806 
+192.71.30.89 1 1 1789 20200616070331
+111.202.101.88 0 1 3631 
+158.69.241.225 1 1 1789 20200616170121
+49.7.21.175 0 1 535834 
+199.244.88.132 3 3 5376 20200630113241
+49.7.21.26 0 1 1806 
+69.165.11.102 1 1 4816 20200609093728
+99.203.64.230 4 23 21811742 20200608121709
+123.126.113.127 0 2 56046 
+192.71.224.240 1 1 1789 20200630032834
+220.249.46.18 0 14 7501676 
+123.183.224.137 0 18 116194 
+123.126.68.128 0 1 535834 
+54.202.157.37 1 1 1789 20200612151156
+134.173.92.8 4 36 20417277 20200630153055
+123.126.113.182 0 1 1806 
+220.249.46.149 0 2 7262 
+182.101.57.129 1 1 1798 20200602041253
+69.165.11.47 1 1 5172 20200606191020
+54.200.130.184 1 1 1789 20200625172634
+49.7.20.125 0 1 7965 
+36.110.147.76 1 2 5408 20200614170952
+54.203.47.247 0 2 17058 
+83.143.86.62 1 1 1789 20200619101055
+123.183.224.99 0 11 79844 
+167.114.64.113 1 1 1789 20200614180224
+62.210.185.4 1 1 88 20200602214310
+167.172.49.152 2 2 6928 20200621192238
+123.126.68.125 0 1 1806 
+123.126.68.116 2 2 3554 20200620191717
+123.126.68.113 1 3 673723 20200605184151
+220.249.46.75 1 1 1777 20200625183414
+220.249.46.161 0 2 1032420 
+31.132.211.144 1 1 5139 20200618200418
+35.224.248.68 2 2 3554 20200626070338
+62.115.15.146 2 2 10278 20200622001404
+36.110.147.87 0 2 1071668 
+117.78.0.83 1 1 1798 20200602102910
+104.227.246.106 2 2 10278 20200619122618
+36.110.147.92 0 1 2493142 
+45.148.10.115 1 1 1798 20200604112149
+148.251.4.136 1 14 3810465 20200612040731
+49.7.21.182 1 1 1777 20200629181312
+220.249.46.121 0 1 2493142 
+18.236.131.246 0 1 34441 
+123.126.68.120 0 6 12493733 
+5.188.62.140 1 1 1789 20200613064337
+123.126.68.142 0 1 2493142 
+45.148.10.74 1 1 1798 20200605141104
+220.249.46.167 0 3 2509072 
+199.249.230.170 2 2 3596 20200604125632
+36.110.147.104 0 5 2679170 
+220.249.46.64 1 2 537611 20200625222650
+36.110.147.99 0 3 590164 
+123.183.224.135 0 6 117529 
+34.221.188.86 1 1 1789 20200617151627
+49.7.21.147 0 1 28023 
+123.126.113.126 0 3 11577 
+192.95.29.220 1 1 88 20200629005618
+23.16.245.193 1 15 3821292 20200614210947
+220.249.46.132 0 5 2581050 
+173.212.199.138 1 10 129176 20200619071220
+36.110.147.102 0 1 2493142 
+45.148.10.43 1 1 1789 20200613012718
+123.126.68.110 0 1 516210 
+123.126.113.101 0 3 59677 
+49.7.21.148 0 2 539465 
+159.69.157.213 1 1 1789 20200621173725
+123.183.224.101 0 6 143746 
+123.126.113.186 0 1 3631 
+220.249.46.187 0 1 2493142 
+49.7.21.130 0 1 7965 
+36.110.147.78 0 1 7965 
+36.110.147.94 1 3 57823 20200617181507
+36.110.147.84 0 2 2521165 
+49.7.21.162 1 3 1053821 20200619195119
+192.99.5.94 3 3 264 20200611190330
+220.249.46.130 1 1 1777 20200626170550
+36.110.147.81 0 1 535834 
+47.92.120.189 1 1 1798 20200602102843
+36.110.147.90 0 1 2493142 
+31.171.152.110 1 1 5139 20200610181540
+220.249.46.105 1 1 1786 20200602175242
+136.243.104.222 1 14 3810474 20200605052957
+139.9.137.182 1 1 1798 20200602102843
+192.99.34.42 1 1 88 20200601165011
+121.36.54.138 1 1 1798 20200602102912
+220.249.46.174 0 6 2553025 
+49.7.21.1 0 1 136103 
+49.7.21.142 0 1 2493142 
+36.110.147.98 0 1 1806 
+69.165.11.179 1 1 5139 20200608062122
+108.184.171.135 3 23 21754964 20200622032503
+37.120.211.108 1 1 5139 20200615042654
+111.202.101.91 0 1 28023 
+220.249.46.65 0 1 516210 
+123.183.224.102 0 10 132737 
+124.206.180.133 1 1 5172 20200605134233
+220.249.46.23 0 2 3028976 
+123.126.68.127 0 1 535834 
+36.110.147.88 0 1 26307 
+36.110.147.79 1 1 1786 20200601215206
+54.191.230.149 0 2 34589 
+123.126.113.158 0 1 28023 
+62.210.83.78 1 1 1789 20200630014844
+123.126.68.124 0 1 3631 
+134.119.207.105 1 1 107 20200612031404
+51.77.52.160 1 1 107 20200614012856
+84.17.51.111 1 1 5172 20200604201112
+49.7.21.2 1 2 537611 20200611182730
+85.209.157.224 1 1 1789 20200620234618
+34.216.61.88 1 1 1789 20200611150823
+123.183.224.100 0 13 47430 
+62.210.111.97 1 1 5139 20200614231722
+220.249.46.25 0 1 535834 
+192.71.103.173 1 1 1789 20200608074714
+193.34.166.149 1 1 5172 20200605013307
+159.65.24.22 4 4 9842 20200609102801
+36.110.147.75 1 1 1786 20200607201233
+13.59.153.170 3 13 143581 20200618145758
+198.27.81.94 1 1 88 20200625030020
+36.110.147.77 0 16 35936408 
+120.24.90.127 1 1 1798 20200602113720
+54.202.207.214 1 1 1789 20200611010046
+123.126.68.129 0 1 535834 
+111.202.101.85 0 1 7965 
+220.249.46.170 0 1 535834 
+36.110.147.105 1 2 2494919 20200613200923
+51.255.150.121 4 4 10278 20200610120258
+52.42.76.229 1 1 1789 20200614151814
+34.87.251.211 2 2 3554 20200617150244
+175.42.86.131 1 1 1786 20200601024618
+123.126.68.111 0 7 2503978 
+34.219.107.185 2 2 3596 20200604002659
+36.110.147.107 1 1 1777 20200629211446
+45.148.10.181 1 1 1789 20200621010725
+123.126.68.126 0 1 7965 
+135.181.30.143 1 1 1789 20200622163823
+123.183.224.136 0 19 152885 
+123.126.68.115 0 1 3631 
+123.126.68.114 1 1 1777 20200627222357
+52.202.43.41 1 1 5139 20200627110834
+123.183.224.139 0 14 175090 
+47.100.248.236 1 1 1798 20200602113808
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20200601 13 54 23549995 7
+20200602 14 28 10136801 11
+20200603 12 25 78395 3
+20200604 18 25 27435 7
+20200605 6 23 9884152 6
+20200606 22 48 23000652 4
+20200607 51 204 158982769 3
+20200608 15 83 72640671 7
+20200609 9 28 5058461 5
+20200610 8 8 30834 4
+20200611 11 24 6204416 7
+20200612 5 18 3814150 5
+20200613 4 8 6068446 4
+20200614 7 34 11003273 7
+20200615 2 3 8734 2
+20200616 6 6 15645 5
+20200617 6 19 6153342 6
+20200618 7 27 273466 4
+20200619 5 24 6248818 5
+20200620 2 15 6660578 2
+20200621 4 8 51931 3
+20200622 7 37 21866616 4
+20200623 4 30 10610072 3
+20200624 0 8 82850 0
+20200625 5 19 11666497 5
+20200626 4 31 8522086 3
+20200627 2 10 3614957 2
+20200628 0 6 49371 0
+20200629 5 35 16025477 5
+20200630 16 89 41391729 6
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+1h+ 1
+5mn-15mn 1
+2mn-5mn 1
+0s-30s 129
+30s-2mn 2
+15mn-30mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 33
+/ 162 353867 127 111
+/projects 15 24589 0 1
+/projects.html 13 25710 1 1
+/data.html 9 323 0 0
+/courses 9 37629 0 3
+/other 8 11466 0 6
+/courses.html 7 32988 0 0
+/wp-login.php 6 528 6 6
+/other.html 4 5780 0 4
+/index 4 5344 0 0
+//web/wp-includes/wlwmanifest.xml 1 88 0 0
+//wp/wp-includes/wlwmanifest.xml 1 88 0 0
+//blog/wp-includes/wlwmanifest.xml 1 88 0 0
+//wp1/wp-includes/wlwmanifest.xml 1 88 0 0
+//test/wp-includes/wlwmanifest.xml 1 88 0 0
+//news/wp-includes/wlwmanifest.xml 1 88 0 0
+/vendor/phpunit/phpunit/build.xml 2 214 0 0
+/2019/wp-includes/wlwmanifest.xml 1 88 1 1
+//site/wp-includes/wlwmanifest.xml 1 88 0 0
+/.env 2 214 0 0
+/administrator/ 2 214 0 0
+//wp-includes/wlwmanifest.xml 1 88 0 0
+//cms/wp-includes/wlwmanifest.xml 1 88 0 0
+/plugins/system/debug/debug.xml 2 214 0 0
+//wp2/wp-includes/wlwmanifest.xml 1 88 0 0
+//sito/wp-includes/wlwmanifest.xml 1 88 0 1
+//xmlrpc.php 1 88 0 0
+/icon-fonts/fontawesome-webfont.woff2 4 308640 0 1
+/fckeditor/editor/filemanager/connectors/php/upload.php 2 214 0 0
+//website/wp-includes/wlwmanifest.xml 1 88 0 0
+/administrator/help/en-GB/toc.json 2 214 0 0
+/administrator/language/en-GB/install.xml 2 214 0 0
+//wordpress/wp-includes/wlwmanifest.xml 1 88 0 0
+END_SIDER
