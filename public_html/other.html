@@ -1,118 +1,352 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<title>Corey O'Brien - Personal Website</title>
-	<meta charset="UTF-8">
-	<meta name="description" content="Hello, My name is Corey O'Brien!">
-	<meta name="keywords" content="personal, portfolio, website">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Favicon -->   
-	<link href="img/SmallLogo2.png" rel="shortcut icon"/>
-
-	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700" rel="stylesheet">
-
-	<!-- Stylesheets -->
-	<link rel="stylesheet" href="css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="css/font-awesome.min.css"/>
-	<link rel="stylesheet" href="css/style.css"/>
-
-  <script type="text/javascript" src="processing.js"></script>
-  <script src="https://cdn.jsdelivr.net/processing.js/1.4.8/processing.min.js"></script>
-
-
-	<!--[if lt IE 9]>
-	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
-
-</head>
-<body>
-	<!-- Page Preloder -->
-	<div id="preloder">
-		<div class="loader"></div>
-	</div>
-	
-	<!-- header section start -->
-	<header class="header-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-4 col-md-3">
-					<div class="logo">
-						<h2 class="site-logo">
-							<a href="/" style="color: black;">Corey O'Brien</a>
-						</h2>
-					</div>
-				</div>
-				<div class="col-lg-8 col-md-9">
-					<nav class="main-menu">
-						<ul>
-							<li><a href="/" >About</a></li>
-							<li><a href="projects">Projects</a></li>
-							<li><a href="courses">Courses</a></li>
-							<li><a href="other" style="color: darkgoldenrod;">Other</a></li>
-						</ul>
-					</nav>
-				</div>
-			</div>
-		</div>
-		<div class="nav-switch">
-			<i class="fa fa-bars"></i>
-		</div>
-	</header>
-	<!-- header section end -->
-
-	<!-- intro section start -->
-	<section class="intro-other">
-		<div class="container text-center">
-			<div class="row">
-				<div class="col-xl-10 offset-xl-1">
-					<h2 class="section-title" style="color: white;text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;"><br>Other</h2>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- intro section end -->
-
-
-	
-
-	<!-- footer section start -->
-	<footer class="footer-section text-center">
-		<div class="container">
-			<h2>What is this site for?</h2>
-			<p>A number of things! I feel I have numerous skills and passions which are not articulated most effecitvely on a resume, so I thought I would try my best
-				to showcase them here. 
-			</p>
-
-			<h2>Who am I?</h2>
-			<p>I am from Pittsburgh, Pennsylvania (shown in the cover image). I have always had a passion for planes and problem solving, so what better way to put the
-				two together than aerospace engineering.
-			</p>
-
-			<h2>Party Circles</h2>
-			<canvas id="mysketch" data-processing-sources="PartyCircles.pde" width="500" height="500"></canvas>
-			
-			<h2>Message</h2>
-			
-			<a href="http://message.cjobrien.com" style="color: black;"> Click this to go to message.cjobrien.com</a>
-			<div class="social-links">	
-			</div>
-				<div class="copyright">
-				Thank you for visiting my site!
-				</div>
-		</div>
-	</footer>
-	<!-- footer section end -->
-
-
-	<!--====== Javascripts & Jquery ======-->
-	<script src="js/jquery-2.1.4.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/mixitup.min.js"></script>
-	<script src="js/magnific-popup.min.js"></script>
-	<script src="js/main.js"></script>
-	
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.0/processing.min.js"></script>
-</body>
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+
+<head>
+
+
+	<title>Corey O'Brien - Personal Website</title>
+
+
+	<meta charset="UTF-8">
+
+
+	<meta name="description" content="Hello, My name is Corey O'Brien!">
+
+
+	<meta name="keywords" content="personal, portfolio, website">
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	<!-- Favicon -->   
+
+
+	<link href="img/FaviconRocket2.png" rel="shortcut icon"/>
+
+
+
+
+
+	<!-- Google Fonts -->
+
+
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700" rel="stylesheet">
+
+
+
+
+
+	<!-- Stylesheets -->
+
+
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+
+
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+
+
+	<link rel="stylesheet" href="css/style.css"/>
+
+
+
+
+
+  <script type="text/javascript" src="processing.js"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/processing.js/1.4.8/processing.min.js"></script>
+
+
+
+
+
+
+
+
+	<!--[if lt IE 9]>
+
+
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+
+
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+
+	<![endif]-->
+
+
+
+
+
+</head>
+
+
+<body>
+
+
+	<!-- Page Preloder -->
+
+
+	<div id="preloder">
+
+
+		<div class="loader"></div>
+
+
+	</div>
+
+
+	
+
+
+	<!-- header section start -->
+
+
+	<header class="header-section">
+
+
+		<div class="container">
+
+
+			<div class="row">
+
+
+				<div class="col-lg-4 col-md-3">
+
+
+					<div class="logo">
+
+
+						<h2 class="site-logo">
+
+
+							<a href="/" style="color: black;">Corey O'Brien</a>
+
+
+						</h2>
+
+
+					</div>
+
+
+				</div>
+
+
+				<div class="col-lg-8 col-md-9">
+
+
+					<nav class="main-menu">
+
+
+						<ul>
+
+
+							<li><a href="/" >About</a></li>
+
+
+							<li><a href="projects">Projects</a></li>
+
+
+							<li><a href="courses">Courses</a></li>
+
+
+							<li><a href="other" style="color: darkgoldenrod;">Other</a></li>
+
+
+						</ul>
+
+
+					</nav>
+
+
+				</div>
+
+
+			</div>
+
+
+		</div>
+
+
+		<div class="nav-switch">
+
+
+			<i class="fa fa-bars"></i>
+
+
+		</div>
+
+
+	</header>
+
+
+	<!-- header section end -->
+
+
+
+
+
+	<!-- intro section start -->
+
+
+	<section class="intro-other">
+
+
+		<div class="container text-center">
+
+
+			<div class="row">
+
+
+				<div class="col-xl-10 offset-xl-1">
+
+
+					<h2 class="section-title" style="color: white;text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;"><br>Other</h2>
+
+
+				</div>
+
+
+			</div>
+
+
+		</div>
+
+
+	</section>
+
+
+	<!-- intro section end -->
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+	<!-- footer section start -->
+
+
+	<footer class="footer-section text-center">
+
+
+		<div class="container">
+
+
+			<h2>What is this site for?</h2>
+
+
+			<p>A number of things! I feel I have numerous skills and passions which are not articulated most effecitvely on a resume, so I thought I would try my best
+
+
+				to showcase them here. 
+
+
+			</p>
+
+
+
+
+
+			<h2>Who am I?</h2>
+
+
+			<p>I am from Pittsburgh, Pennsylvania (shown in the cover image). I have always had a passion for planes and problem solving, so what better way to put the
+
+
+				two together than aerospace engineering.
+
+
+			</p>
+
+
+
+
+
+			<h2>Party Circles</h2>
+
+
+			<canvas id="mysketch" data-processing-sources="PartyCircles.pde" width="500" height="500"></canvas>
+
+
+			
+
+
+			<h2>Message</h2>
+
+
+			
+
+
+			<a href="http://message.cjobrien.com" style="color: black;"> Click this to go to message.cjobrien.com</a>
+
+
+			<div class="social-links">	
+
+
+			</div>
+
+
+				<div class="copyright">
+
+
+				Thank you for visiting my site!
+
+
+				</div>
+
+
+		</div>
+
+
+	</footer>
+
+
+	<!-- footer section end -->
+
+
+
+
+
+
+
+
+	<!--====== Javascripts & Jquery ======-->
+
+
+	<script src="js/jquery-2.1.4.min.js"></script>
+
+
+	<script src="js/bootstrap.min.js"></script>
+
+
+	<script src="js/mixitup.min.js"></script>
+
+
+	<script src="js/magnific-popup.min.js"></script>
+
+
+	<script src="js/main.js"></script>
+
+
+	
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.0/processing.min.js"></script>
+
+
+</body>
+
+
 </html>
