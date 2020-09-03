@@ -1576,6 +1576,28 @@ ol {
 
 }
 
+.intro-books {
+
+
+
+  background-image: url("../img/SaturnVBackgroundBlur.png");
+
+
+
+  background-size: cover;
+
+
+
+  background-position: bottom center;
+
+
+
+  padding: 100px 0;
+
+
+
+}
+
 
 
 .intro-projects {
