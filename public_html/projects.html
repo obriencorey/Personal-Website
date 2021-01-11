@@ -107,6 +107,7 @@
 
 
 <body>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Back To Top</button>
 
 
 
@@ -1176,7 +1177,7 @@
 				</div>
 
 				<br><h2>Making Some Air Launch Rockets</h2>
-					<h1>January 21st, 2018 (Pittsburgh, Pennsylvania</h1>
+					<h1>January 21st, 2018 (Pittsburgh, Pennsylvania)</h1>
 					<br>
 
 					<h6>Air launch rockets are great! I mean, they're pretty great. My original plan was to use hydrazine to make some liquid fuel rockets but my mom seemed against that. Jokes aside, this was a fun little project. 
@@ -1209,7 +1210,7 @@
 				</div>
 
 				<br><h2>Fighter Jet Tiles</h2>
-					<h1>November 12th, 2017 (Pittsburgh, Pennsylvania</h1>
+					<h1>November 12th, 2017 (Pittsburgh, Pennsylvania)</h1>
 					<br>
 
 					<h6>Pretty simple, but fun. I had some old tiles and some pieces of tile that I needed something to do with. I thought what would be better than a fighter jet mosaic! A perfect combination of art and reuse, 
@@ -1236,7 +1237,7 @@
 				</div>
 
 				<br><h2>Making a Terrarium with a Light Bulb</h2>
-					<h1>May 6th, 2017 (Pittsburgh, Pennsylvania</h1>
+					<h1>May 6th, 2017 (Pittsburgh, Pennsylvania)</h1>
 					<br>
 
 					<h6>I have always liked terrariums. There is something so cool about a mini self supporting ecosystem that you can hold in your hand. That being said, a terrarium is quite difficult without the proper equipment and knowledge.
@@ -1273,7 +1274,7 @@
 				</div>
 
 				<br><h2>Launching a 98% Homemade Model Rocket! </h2>
-					<h1>July 12th, 2016 (Pittsburgh, Pennsylvania</h1>
+					<h1>July 12th, 2016 (Pittsburgh, Pennsylvania)</h1>
 					<br>
 
 					<h6>Aweeee yeah, another model rocket. I can't even tell you how many I launched prior to this one, or how many I launched after this one. Either way, this one was awesome. It used 2 estes C motors, ripping
@@ -1297,7 +1298,7 @@
 				</div>
 
 				<br><h2>Seeing Every Space Shuttle (Atlantis, Endeavour, Enterprise, Discovery)</h2>
-					<h1>June 23rd, 2016 (Pittsburgh, Pennsylvania</h1>
+					<h1>June 23rd, 2016 (Pittsburgh, Pennsylvania)</h1>
 					<br>
 
 					<h6>One day, I learned what the word bucket list meant. And I figured I should have one right? It seems like everyone does and it would be nice to have a big goal I could work towards. The only item on my bucket list 
@@ -1330,7 +1331,7 @@
 				</div>
 
 				<br><h2>Strapping a Camera to a Rocket!</h2>
-					<h1>December 15th, 2015 (Pittsburgh, Pennsylvania</h1>
+					<h1>December 15th, 2015 (Pittsburgh, Pennsylvania)</h1>
 					<br>
 
 					<h6>This video is just plain awesome. Yet, I still can't figure out how to get it off the SD card. I believe the card got corrupted by whatever cheap camera I used so the best I can do is screenshots of the video playing
@@ -1362,7 +1363,7 @@
 				</div>
 
 				<br><h2>Composing a Song (For the Steel Drums)</h2>
-					<h1>October 2nd, 2015 (Pittsburgh, Pennsylvania</h1>
+					<h1>October 2nd, 2015 (Pittsburgh, Pennsylvania)</h1>
 					<br>
 
 					<h6>I wrote a song! And before you even hear it, just know that it is not good. I'm sure the good souls who formalized music theory are rolling in their graves right now at the fact that this thing exists, but I found a great website
@@ -1446,6 +1447,28 @@
 
 
 	<script src="js/main.js"></script>
+
+	<script>
+		//Get the button
+		var mybutton = document.getElementById("myBtn");
+		
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+		
+		function scrollFunction() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			mybutton.style.display = "block";
+		  } else {
+			mybutton.style.display = "none";
+		  }
+		}
+		
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		  document.body.scrollTop = 0;
+		  document.documentElement.scrollTop = 0;
+		}
+		</script>
 
 
 
