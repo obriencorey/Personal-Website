@@ -52,6 +52,7 @@ h5 {
 
 }
 
+
 #myBtn {
   display: none;
   position: fixed;
@@ -86,7 +87,7 @@ p {
 
 
 
-  color: #979797;
+  color: #767676;
 
 
 
@@ -302,7 +303,7 @@ ol {
 
 
 
-  color: #979797;
+  color: #767676;
 
 
 
@@ -634,7 +635,7 @@ ol {
 
 
 
-  background-color: #979797;
+  background-color: #767676;
 
 
 
@@ -698,11 +699,11 @@ ol {
 
 
 
-  border: 2px solid #979797;
+  border: 2px solid #767676;
 
 
 
-  color: #979797;
+  color: #767676;
 
 
 
@@ -722,7 +723,7 @@ ol {
 
 
 
-  color: #979797;
+  color: #767676;
 
 
 
@@ -1266,7 +1267,7 @@ ol {
 
 
 
-  color: #979797;
+  color: #767676;
 
 
 
@@ -1483,6 +1484,7 @@ ol {
 
 
   margin-right: 10px;
+
 
 
 
@@ -1744,7 +1746,7 @@ ol {
 
 
 
-  color: #979797;
+  color: #767676;
 
 
 
@@ -2024,7 +2026,7 @@ ol {
 
 
 
-  color: #a6a6a6;
+  color: #767676;
 
 
 
@@ -2232,7 +2234,7 @@ Images
 
 
 
-  color: #979797;
+  color: #767676;
 
 
 
@@ -2328,7 +2330,7 @@ h6{
 
 
 
-  color: #a6a6a6;
+  color: #767676;
 
 
 
@@ -2348,7 +2350,9 @@ h6{
 
 
 
-  color: #a6a6a6;
+  color: #767676;
+
+  
 
 
 
@@ -2440,7 +2444,7 @@ h6{
 
 
 
-  color: #979797;
+  color: #767676;
 
 
 
@@ -2600,7 +2604,7 @@ h6{
 
 
 
-  color: #979797;
+  color: #767676;
 
 
 
@@ -2760,7 +2764,8 @@ h6{
 
 
 
-  color: #979797;
+  color: #767676;
+  
 
 
 
@@ -3180,7 +3185,7 @@ h6{
 
 
 
-    padding-top: 15px;
+    padding-top: 0px;
 
 
 
@@ -3208,7 +3213,7 @@ h6{
 
 
 
-    padding: 10px 15px;
+    padding: 15px 15px 15px 15px;
 
 
 
@@ -3428,15 +3433,73 @@ h6{
 
 
 
-  .section-title {
+  
+
+
+  .body-pad {
 
 
 
-    font-size: 30px;
+    padding: 0 15px;
 
 
 
   }
+
+
+
+  .main-menu {
+
+
+
+    position: absolute;
+
+
+
+    background: #efefef;
+
+
+
+    width: 100%;
+
+
+
+    z-index: 999;
+
+
+
+    left: 0;
+
+
+
+    top: 30px;
+
+
+
+    padding-top: 5px;
+
+
+
+    display: none;
+
+
+
+  }
+
+
+
+
+  .section-title {
+
+
+
+    font-size: 38px;
+
+
+
+  }
+
+
 
 
 
