@@ -1896,52 +1896,17 @@ ol {
 
 .portfolio-item .pi-inner h2 {
 
-
-
   opacity: 0;
-
-
-
   font-size: 30px;
-
-
-
   font-weight: 400;
-
-
-
   position: absolute;
-
-
-
   left: 50px;
-
-
-
   bottom: 50px;
-
-
-
   color: #fff;
-
-
-
   letter-spacing: 10px;
-
-
-
   -webkit-transition: all 0.3s ease 0s;
-
-
-
   -o-transition: all 0.3s ease 0s;
-
-
-
   transition: all 0.3s ease 0s;
-
-
-
 }
 
 
@@ -3033,6 +2998,12 @@ h6{
 
 
 
+.fusion iframe {
+  width: 85%;
+  height: 400px;
+  padding: 10px 0px 10px 0px;
+}
+
 
 
 
@@ -3287,35 +3258,12 @@ h6{
 
   .nav-switch {
 
-
-
     position: absolute;
-
-
-
     right: 25px;
-
-
-
     font-size: 30px;
-
-
-
     color: #333;
-
-
-
     top: 25px;
-
-
-
     display: block;
-
-
-
-    
-
-
 
   }
 
@@ -3323,11 +3271,7 @@ h6{
 
   .header-btn {
 
-
-
     display: none;
-
-
 
   }
 
@@ -3335,55 +3279,25 @@ h6{
 
   .section-title {
 
-
-
     font-size: 45px;
 
-
-
   }
-
 
 
   .portfolio-filter {
 
-
-
     text-align: center;
-
-
 
   }
 
 
-
-
-
-
-
   .footer-section .img-left img{
 
-
-
     height: 100%; 
-
-
-
     width: 100%; 
-
-
-
     float: none; 
-
-
-
     padding-right: 15%;
-
-
-
     padding-left: 15%;
-
-
 
   }
 
@@ -3391,31 +3305,13 @@ h6{
 
   .footer-section .img-right img{
 
-
-
     height: 100%; 
-
-
-
     width: 100%; 
-
-
-
     float: none; 
-
-
-
     padding-right: 15%;
-
-
-
     padding-left: 15%;
 
-
-
   }
-
-
 
 }
 
@@ -3495,20 +3391,14 @@ h6{
   }
 
 
-
-
   .section-title {
-
-
 
     font-size: 38px;
 
-
-
   }
 
-
-
-
+  .fusion iframe {
+    width: 95%;
+  }
 
 }
