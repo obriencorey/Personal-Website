@@ -52,6 +52,41 @@ h5 {
 
 }
 
+.coursescolumn {
+  
+  width: 50%;
+  padding: 10px;
+  
+  
+}
+
+.coursescard {
+  transition: box-shadow .5s;
+  background-color:rgb(236, 236, 236);
+  border-radius: 25px;
+  padding: 10px 10px 10px 10px;
+
+}
+
+.coursescard:hover {
+  box-shadow: 5px 5px 5px rgb(194, 142, 14);
+}
+
+.coursescolumn h6 {
+
+  font-size: 18px;
+  color: #000000;
+  line-height: 1.8;
+
+
+
+}
+
+.coursescolumn h2 {
+
+  color:rgb(194, 142, 14);
+}
+
 
 #myBtn {
   display: none;
@@ -3083,6 +3118,10 @@ h6{
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
 
+  .coursescolumn {
+    width: 100%;
+    padding: 10px;
+  }
 
   .body-pad {
 
@@ -3122,7 +3161,10 @@ h6{
 
 @media only screen and (max-width: 767px) {
 
-
+  .coursescolumn {
+    width: 100%;
+    padding: 10px;
+  }
 
   .body-pad {
 
@@ -3336,7 +3378,10 @@ h6{
 @media only screen and (max-width: 479px) {
 
 
-
+  .coursescolumn {
+    width: 100%;
+    padding: 10px;
+  }
   
 
 
