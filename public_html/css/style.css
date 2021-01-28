@@ -52,9 +52,24 @@ h5 {
 
 }
 
+#progressbar {
+  background-color: black;
+  border-radius: 13px;
+  padding: 3px;
+  width: 60%;
+  display: inline-block;
+}
+
+#progressbar>div {
+  background-color:rgb(194, 142, 14);
+  width: 76.9%;
+  height: 20px;
+  border-radius: 10px;
+}
+
 .coursescolumn {
   
-  width: 50%;
+  width: 33.33%;
   padding: 10px;
   
   
@@ -86,6 +101,64 @@ h5 {
 
   color:rgb(194, 142, 14);
 }
+
+.coursespadding {
+  padding: 2% 15% 2% 15%;
+}
+
+.row{
+  margin: 0 5%;
+}
+
+
+
+.coursecontainer { 
+  box-sizing: border-box;
+  display: flex; 
+  flex-flow: row wrap;
+}
+
+/* CSS FOR COURSES CARDS */
+
+.coursecard-wrap {
+  box-sizing: border-box;
+  flex: 0 0 33.333%;
+  display: flex;
+  padding: 10px; /* gutter width */
+}
+
+
+.coursecard {
+  transition: box-shadow .5s;
+  box-sizing: border-box;
+  box-shadow: 0 0 4px rgba(0,0,0,0.4);
+  flex: 0 0 100%;
+  background-color:rgb(236, 236, 236);
+  border-radius: 25px;
+  padding: 10px 5px;
+}
+
+.coursecard h6 {
+
+  font-size: 18px;
+  color: #000000;
+  line-height: 1.8;
+
+
+
+}
+
+.coursecard h2 {
+
+  color:rgb(194, 142, 14);
+}
+
+.coursecard:hover {
+  box-shadow: 5px 5px 5px rgb(194, 142, 14);
+}
+
+/* END CSS FOR COURSES CARDS */
+
 
 
 #myBtn {
@@ -3101,6 +3174,15 @@ h6{
 
   }
 
+  .coursescolumn {
+  
+    width: 50%;    
+  }
+
+  .coursecard-wrap {
+    flex: 0 0 50%;
+  }
+
 
 
 }
@@ -3121,6 +3203,10 @@ h6{
   .coursescolumn {
     width: 100%;
     padding: 10px;
+  }
+
+  .coursecard-wrap {
+    flex: 0 0 50%;
   }
 
   .body-pad {
@@ -3164,6 +3250,10 @@ h6{
   .coursescolumn {
     width: 100%;
     padding: 10px;
+  }
+
+  .coursecard-wrap {
+    flex: 0 0 100%;
   }
 
   .body-pad {
@@ -3376,6 +3466,8 @@ h6{
 
 
 @media only screen and (max-width: 479px) {
+
+  .row{margin: 0 -10px;}
 
 
   .coursescolumn {
